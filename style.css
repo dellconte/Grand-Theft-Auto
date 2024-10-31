@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-style: none;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.nav-logo img {
+    height: 88px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-link ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-link li {
+    margin: 0 15px;
+}
+
+.nav-link li a {
+    display: flex;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.nav-link li a:hover{
+    transform: scale(1.1);
+    color: gold;
+}
+
+.nav-login {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav-login ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+}
+
+.nav-login ul li i {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-login ul li i:hover {
+    transform: scale(1.2);
+    color: gold;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 45%;
+    left: 80px;
+    overflow: hidden;
+    position:fixed;
+    bottom: 100px;
+    cursor: pointer;
+}
+
+.container-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 120px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid wheat;
+}
+
+.arrow {
+    width: 50%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: fixed;
+    left: 30px; 
+    right: 0px; 
+    bottom: 140px; 
+}
+
+.arrow a {
+    display: flex; 
+    align-items: center; 
+}
+
+.arrow i {
+    color: #fff; 
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 50%; 
+    border: 1px solid wheat; 
+    padding: 8px; 
+    transition: .3s ease;
+}
+
+.arrow i:hover {
+    color: gold;
+    transform: scale(1.3);
+    border: 1px solid gold; 
+}
+
+.container-text {
+    width: 45%;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.container-text h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container-text p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 45%;
+    padding: 15px;
+    gap: 60px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+
+.button {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 5px 5px;
+    cursor: pointer; 
+    color: #fff;
+    background-color: transparent;
+}
+
+.button:hover {
+    transform: scale(1.2);
+    color: gold;
+    border: 2px solid gold;
+    font-weight: 500;
+}
+
+.social {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    top: 170px;
+    right: 50px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i {
+    font-size: 2rem;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    right: 60px;
+}
+
+.social i:hover {
+    transform: scale(1.5);
+    color: gold;
+}
+
+footer {
+    display: flex;
+}
+
+footer p {
+    width: 100%;
+    color: #000;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+    padding: 5px;
+    opacity: 0.7;
+}
